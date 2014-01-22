@@ -1,2 +1,5 @@
 # Turing machine
 # -*- coding: latin-1 -*-
+#
+# use ssh-keygen to generate a key and add to github
+#
