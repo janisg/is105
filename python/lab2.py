@@ -112,6 +112,9 @@ def transferHex(string):
 		print '{0:02x}'.format(ord(c))
 
 transferHex("Aha Here we go ÆØÅ")
+
+0101 & 1010 = 0000
+
 		
 
 
