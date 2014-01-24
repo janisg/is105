@@ -7,4 +7,6 @@
 *.mod.c
 *.order
 *.symvers
-./tmp_versions
+.tmp_versions
+*.cmd
+
