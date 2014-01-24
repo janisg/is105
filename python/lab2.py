@@ -97,6 +97,7 @@ def transferBin(string):
 	l = list(string)
 	for c in l:
 		# skriv ut den binære representasjon av hvert tegn (bruk ascii8Bin funksjonen din)
+		print "det binære representasjonen"
 
 #
 #  Oppgave 8
@@ -106,7 +107,11 @@ def transferBin(string):
 #					med 2 heksadesimale tegn
 #  
 def transferHex(string):
-	pass
+	l = list(string)
+	for c in l:
+		print '{0:02x}'.format(ord(c))
+
+transferHex("Aha Here we go ÆØÅ")
 		
 
 

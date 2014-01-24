@@ -1,0 +1,10 @@
+# Compiled source #
+###################
+*.ko
+*.ko.unsigned
+*.mod.o
+*.o
+*.mod.c
+*.order
+*.symvers
+./tmp_versions

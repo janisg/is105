@@ -2,4 +2,6 @@
 # -*- coding: latin-1 -*-
 #
 # use ssh-keygen to generate a key and add to github
-#
+# 
+# remember pipelight (for silverlight), problems with libc, libxml2 etc. in
+# centos 6
