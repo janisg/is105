@@ -100,7 +100,20 @@ def escape():
 	print backslash_cat
 	print fat_cat
 
-escape()
+#escape()
+
+def list_comprehension():
+	ath_data = [('Marit', 'Norway', 'cross-country skiing'), ('Martin', 'France', 'biathlon')]
+	ath_country = [name + ' is from ' + country for name, country, sport in ath_data]
+	for row in ath_country:
+		print row
+
+list_comprehension()
+
+c1 = "CS373"
+c2 = "CS253"
+print c1.find("CS3")
+print c2.find("CS3")
 
 # Kaller opp implementerte funksjoner (pseudo-testing)
 # For å teste innleveringen
