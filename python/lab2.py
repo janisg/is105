@@ -113,7 +113,7 @@ def transferHex(string):
 
 transferHex("Aha Here we go ÆØÅ")
 
-0101 & 1010 = 0000
+#0101 & 1010 = 0000
 
 		
 
